@@ -21,4 +21,5 @@ In the end the move_files() is called. When the images in the Downloads folder m
 
 To automate the script I used crontab to execute the program every 2 minutes. Any files moved is recorded in the log.txt inside the Log folder in Downloads. The command lines edited in the crontab file is: 
 
+
 */2 * * * * cd ~/Downloads/ && python3 automation.py >>~/Downloads/Log/log.txt
